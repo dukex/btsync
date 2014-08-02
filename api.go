@@ -14,7 +14,7 @@ type BTSync struct {
 
 type Folder struct {
 	Dir      string `json:"dir"`
-	Secrect  string `json:"secret"`
+	Secret   string `json:"secret"`
 	Size     int64  `json:"size"`
 	Type     string `json:"type"`
 	Files    int64  `json:"files"`
